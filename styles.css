@@ -211,3 +211,25 @@ button:active {
     height: fit-content;
   }
 }
+
+
+footer{
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  color: #ce59d4;
+
+
+  font-size: 0.8rem;
+}
+
+footer span{
+  margin: 0 5px;
+}
+footer span:nth-child(1) a{
+  text-decoration: none;
+}
+
+footer span a{
+  color: #ce59d4;
+}
