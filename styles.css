@@ -196,23 +196,6 @@ button:active {
   }
 }
 
-@media (max-width: 500px) {
-  body{
-    flex-direction: column;
-    padding: 10px;
-  }
-  .container, .match{
-    width: 100%;
-    padding: 10px 5px;
-    border-radius: 10px;
-  }
-
-  .match{
-    height: fit-content;
-  }
-}
-
-
 footer{
   position: absolute;
   bottom: 5px;
@@ -232,4 +215,29 @@ footer span:nth-child(1) a{
 
 footer span a{
   color: #ce59d4;
+}
+
+@media (max-width: 500px) {
+  body{
+    flex-direction: column;
+    padding: 10px;
+    min-height: 100%;
+    height: 100%;
+
+    position: relative;
+  }
+  .container, .match{
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 10px;
+  }
+
+  .match{
+    height: fit-content;
+  }
+
+  button{
+    margin-bottom: 40px;
+  }
+
 }
